@@ -3,7 +3,7 @@ library(dplyr)
 library(knitr)
 
 # read in csv data 
-feeding <- read.csv("/Users/jessyephillips/Desktop/LRF (Bermuda)/Feeding Trial Jessye 2023/R analysis/for_analysis_feeding_data.csv")
+feeding <- read.csv("for_analysis_feeding_data.csv")
 
 # ensure correct data classes 
 feeding$Surface_Area_02.08 <- as.numeric(feeding$Surface_Area_02.08)
