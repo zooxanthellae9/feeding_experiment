@@ -91,7 +91,7 @@ Perim_Treatment_boxplot
 all_boxplots <- plot_grid(SA_Tank_boxplot, SA_Treatment_boxplot,
           Perim_Tank_boxplot, Perim_Treatment_boxplot,
           nrow = 2, ncol = 2)
-ggsave(filename="all_boxplots.png", path = "/Users/jessyephillips/Desktop/LRF (Bermuda)/Feeding Trial Jessye 2023/R analysis/graphs",  
+ggsave(filename="all_boxplots.png", path = "~/graphs",  
        all_boxplots, device="png", dpi=700)
 
 
