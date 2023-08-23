@@ -4,7 +4,7 @@ library(ggplot2)
 library(cowplot)
 
 # read in csv data 
-feeding <- read.csv("/Users/jessyephillips/Desktop/LRF (Bermuda)/Feeding Trial Jessye 2023/R analysis/for_analysis_feeding_data")
+feeding <- read.csv("for_analysis_feeding_data")
 
 # ensure correct data classes 
 feeding$Surface_Area_02.08 <- as.numeric(feeding$Surface_Area_02.08)
