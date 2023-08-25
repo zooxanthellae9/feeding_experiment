@@ -3,4 +3,4 @@
 ## The data loaded in R is provided as a .csv file
 ## R scripts used for the data analysis can be found in "scripts"
 ## Boxplots and plots used to guage data's adherance to different assumptions can be found in "graphs" 
-## A summary table for the mean SA and Perim change data can be found in the file 
+## A summary table for the mean SA and Perim change data can be found in the file "summarised_feeding.csv"
